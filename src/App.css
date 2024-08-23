@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  font-size: 1rem;
+  color: var(--Gray500);
+  background-color: var(--Yellow);
+}
+main {
+  background-color: var(--White);
+  width: clamp(25rem, calc(100% - 40px), 30rem);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 2px solid var(--Gray950);
+  box-shadow: 0.75rem 0.75rem 0px var(--Gray950);
+  margin: 2rem auto;
+}
+.illustration {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+button {
+  margin: 1.65rem 0 1rem 0;
+  padding: 0.65rem 2rem;
+  min-width: 50%;
+  cursor: pointer;
+  background-color: var(--Yellow);
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+}
+h1 {
+  margin: 0.85rem 0;
+  color: var(--Gray950);
+  font-family: "Figtree-ExtraBold";
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0 0;
+  gap: 0.75rem;
+}
+div img {
+  width: 3rem;
+}
+@media (max-width: 27rem) {
+  body {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+  main {
+    padding: 1rem;
+    width: 90%;
+  }
+}
